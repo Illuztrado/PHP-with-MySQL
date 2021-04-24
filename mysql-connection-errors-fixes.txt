@@ -1,0 +1,11 @@
+error # 2002 - php_network_getaddresses: getaddrinfo failed: No such host is known.
+fix: Make sure you supplied the correct host value for DB_HOST
+
+Error # 1045 - Access denied for user '****'@'localhost' (using password: NO)
+fix: Supply the correct user value for DB_USER
+
+Error # 1045 - Access denied for user 'root'@'localhost' (using password: YES)
+fix: Supply the correct password value for DB_PASS
+
+Error # 1049 - Unknown database 'amazon'
+fix: Make sure that the database (SQL file) has been imported into MySQL before using PHP to connect to the database
