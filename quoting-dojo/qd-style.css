@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 400px;
+    width: 600px;
+    padding: 15px;
+    margin: 40px auto;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.addQuote {
+    width: 300px;
+    display: inline-block;
+}
+.skipQuote {
+    width: 250px;
+    display: inline-block;
+}
+.homeSection {
+    width: 600px;
+    margin-bottom: 20px;
+}
+.nameInput {
+    width: 600px;
+    height: 40px;
+}
+.quoteField {
+    width: 450px;
+    height: 180px;
+}
+ul input {
+    height: 25px;
+    width: 350px;
+    display: inline-block;
+}
+p {
+    color: red;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+/* main.php style */
+.mainSection {
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+.mainSection p, .quoteName {
+    color: blue;
+    margin: 0 auto;
+    font-size: 1em;
+    text-align: right;
+}
